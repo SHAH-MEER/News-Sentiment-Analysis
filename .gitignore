@@ -1,0 +1,17 @@
+.venv
+*__pycache__
+*.pyc
+*.pyo
+.streamlit
+*.log
+*.lock
+*.json
+*.pyd
+*.so
+
+# Streamlit secrets
+.streamlit/secrets.toml
+.streamlit/secrets.toml.example
+
+# Ignore all files in .streamlit
+.streamlit/*
